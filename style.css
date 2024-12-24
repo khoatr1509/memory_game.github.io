@@ -74,3 +74,26 @@ h1 {
     font-size: 20px;
     padding: 2px;
 }
+
+@media screen and (max-width: 391px) {
+    .card-container {
+        width: 80%;
+    }
+
+    .card {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hidden-card {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .card-container {
+        width: 70%;
+
+    }
+}
