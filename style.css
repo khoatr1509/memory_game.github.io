@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: auto;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    background-color: #FDF8E6;
+    padding: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 18px;
+    width: 50%;
+    margin: 16px auto;
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    background-color: cadetblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden-card {
+    width: 120px;
+    height: 120px;          
+    position: absolute;
+    z-index: 10;
+    background-color: orange;
+}
+
+.info-content {
+    width: 200px;
+    margin: 3px auto;
+    font-size: 25px;
+    font-weight: 700;       
+}
+
+#point {
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#attempt {
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#fail {
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+    padding: 2px;
+}
